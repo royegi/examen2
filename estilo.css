@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+cursiva titulo
+serif naranja
+background: url("img/naranja2.svg") repeat-x top / 20px;
+
+nav{
+    
+    margin: 2px;
+    padding: 2px 55px;
+    background-color: hsl(59, 95%, 50%);
+    border: red 2px solid;
+    color: orange;
+    
+}
+header{
+    background-color: hsl(41, 87%, 49%);
+    font-family: cursive;
+}
+
+body{background: url("img/naranja2.svg") repeat-x top / 20px,url("img/naranja2.svg") repeat-x bottom / 30px, hsl(59, 93%, 73%);;
+    
+ 
+}
+p#primercuadro {
+    background: url("img/naranja.png") repeat-y top left / 50px, url("img/naranja.png") repeat-y top right / 50px;
+    padding: 0 75px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 35%;
+    height: 25%;
+    z-index: 2;
+    border: hsl(0, 89%, 44%) 3px solid;
+    background-color: hsl(32, 75%, 69%);
+    text-align: center;
+    font-family: serif;
+    font-size: 1.15rem;
+    color: red;
+    letter-spacing: 4px;
+  }
+  p#segundocuadro {
+    
+    
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 40%;
+    height: 40%;
+    
+    border: hsl(71, 93%, 52%) 3px solid;
+    background-color: hsl(69, 88%, 74%);
+    text-align: left;
+    font-family: serif;
+    font-size: 1.25rem;
+    color: hsl(61, 82%, 45%);
+  }
+  p#tercercuadro {
+    
+    
+    position: absolute;
+    bottom: 10%;
+    right:5%;
+    width: 40%;
+    height: 40%;
+    
+    border: hsl(219, 82%, 46%) 3px solid;
+    background-color: hsl(182, 70%, 75%);
+    text-align: right;
+    font-family: serif;
+    font-size: 1.15rem;
+    color: orange;
+  }
+  p:hover {
+    z-index:2;
+  }
+  footer{
+      text-align: center;
+      color: red;
+  }
